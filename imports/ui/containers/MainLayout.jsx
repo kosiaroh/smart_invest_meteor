@@ -7,7 +7,7 @@ import About from '../pages/About.jsx';
 import Product from '../pages/Products.jsx';
 import Contact from '../pages/Contact.jsx';
 import NotFound from '../pages/NotFound.jsx';
-
+import Dashboard from '../pages/Dashboard.jsx';
 export default class MainLayout extends React.Component {
   render() {
     return (
@@ -19,6 +19,7 @@ export default class MainLayout extends React.Component {
               <Route path = '/products' component={Product} />
               <Route path = '/about' component={About} />
               <Route path = '/contact' component={Contact} />
+              <Route path = '/dashboard' component={Dashboard} />
               <Route component={NotFound} />
             </Switch>
         </div>
