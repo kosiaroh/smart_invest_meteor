@@ -41,3 +41,4 @@ For an in-depth example of how to use Meteor with React see
 - Home, About
 - Not Found
 - Main Layout
+# smart_invest_meteor
