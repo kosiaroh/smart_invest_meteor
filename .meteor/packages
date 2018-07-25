@@ -27,7 +27,10 @@ random
 ejson
 spacebars
 check
-accounts-ui
 accounts-password
 gadicc:blaze-react-component
 react-meteor-data
+twbs:bootstrap
+useraccounts:bootstrap
+useraccounts:core
+aldeed:template-extension

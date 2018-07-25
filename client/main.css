@@ -8,3 +8,11 @@ Header a, #login-buttons a {
   margin-right: 10px;
   color:inherit;
 }
+
+.carousel {
+	height:75vh !important;
+}
+
+.slider-wrapper {
+	height:75vh !important;
+}

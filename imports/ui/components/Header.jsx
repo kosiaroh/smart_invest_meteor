@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-
-import LoginButtons from './LoginButtons.jsx';
+import AccountsUIWrapper from '../accounts/AccountsUIWrapper.js';
 
 export default class Header extends React.Component {
   render() {
@@ -13,7 +12,7 @@ export default class Header extends React.Component {
         <NavLink activeClassName="active" to="/about">About</NavLink>
         <NavLink activeClassName="active" to="/contact">Contact Us</NavLink>
         {/*<NavLink to="/bad-url">Not Found Page</NavLink>*/}
-        <LoginButtons align='left' />
+        <AccountsUIWrapper />
       </header>
     );
   }
