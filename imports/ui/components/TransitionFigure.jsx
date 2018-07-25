@@ -28,8 +28,6 @@ class TransitionFigure extends React.Component {
 
   getData() {
     const bars =6+(10-6)*Math.random();
-    console.log(bars);
-    console.log(this.range(Math.floor(bars)));
     return this.range(Math.floor(bars)).map((bar) => {
       return {x: bar + 1, y: 2+(10-2)*Math.random()};
     });
