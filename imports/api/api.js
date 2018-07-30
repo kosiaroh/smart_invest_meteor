@@ -1,2 +1,3 @@
 import './User.js';
-import './taks.js';
+import './population.js';
+import './methods.js'

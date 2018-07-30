@@ -1,5 +1,6 @@
 import { Meteor } from 'meteor/meteor';
 import './accounts-config.js';
+import '../../api/api.js'
 import '../../../lib/config/at_config.js'
 import React from 'react';
 import ReactDOM from 'react-dom';

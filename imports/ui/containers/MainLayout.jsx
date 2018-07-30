@@ -8,10 +8,12 @@ import Product from '../pages/Products.jsx';
 import Contact from '../pages/Contact.jsx';
 import NotFound from '../pages/NotFound.jsx';
 import Dashboard from '../pages/Dashboard.jsx';
+import Dashboard2 from '../pages/Dashboard2.jsx';
+
 export default class MainLayout extends React.Component {
   render() {
     return (
-      <Router>
+      <Router >
         <div>
           <Header />
             <Switch>
@@ -20,6 +22,7 @@ export default class MainLayout extends React.Component {
               <Route path = '/about' component={About} />
               <Route path = '/contact' component={Contact} />
               <Route path = '/dashboard' component={Dashboard} />
+              <Route path = '/dashboard2' component={Dashboard2} />
               <Route component={NotFound} />
             </Switch>
         </div>
